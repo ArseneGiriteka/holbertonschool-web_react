@@ -1,20 +1,20 @@
 interface Student {
-    firstname: string;
-    lastname: string;
+    firstName: string;
+    lastName: string;
     age: number;
     location: string;
 }
 
 const studentA: Student = {
-    firstname: "Lollipop",
-    lastname: "Android 5",
+    firstName: "Lollipop",
+    lastName: "Android 5",
     age: 10,
     location: "Palo Alto"
 }
 
 const studentB: Student = {
-    firstname: "Nougcat",
-    lastname: "Android 8",
+    firstName: "Nougcat",
+    lastName: "Android 8",
     age: 8,
     location: "Palo Alto"
 }
@@ -28,7 +28,7 @@ list.forEach((item) => {
     const r = document.createElement('tr');
 
     const cell1 = document.createElement('td');
-    cell1.textContent = item.firstname;
+    cell1.textContent = item.firstName;
 
     const cell2 = document.createElement('td');
     cell2.textContent = item.location;
